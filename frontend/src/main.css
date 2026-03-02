@@ -1,0 +1,206 @@
+body{
+    background: #b7d8d3;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.nav-auth{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+nav a{
+    color: red;
+    background: lightgray;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    border: 2px solid red;
+}
+
+nav a:hover{
+    background: darkgray;
+}
+
+
+
+/* ------- tables css start -------- */
+
+/* ------- tables css end -------- */
+
+/* ------- calculator css start -------- */
+
+.calculator-site{
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.calculator-row-light{
+    background: #a8cfa3;
+}
+
+.calculator-row-dark{
+    background: #6f966c;
+}
+
+.calculator-name{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 2rem 0 2rem;
+}
+
+.calculator-name input{
+    flex: 1;
+    font-size: 16px;
+}
+
+.button-save{
+    width: 3rem;
+    height: 100%;
+    font-size: 16px;
+}
+
+.calculator-values{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 0.5rem 2rem;
+    align-items: center;
+}
+
+.values-column{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+}
+
+.values-column.pair input{
+    width: 100px;
+    height: 30px;
+    font-size: 24px;
+}
+
+.values-column.solo input{
+    width: 150px;
+    height: 45px;
+    font-size: 36px;
+}
+
+.buttons{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.button-big{
+    width: 44px;
+    height: 44px;
+    font-size: 24px;
+}
+
+.button-small{
+    width: 44px;
+    height: 22px;
+    font-size: 12px;
+}
+
+.calculator-chart{
+    padding: 0 2rem 0.5rem 2rem;
+}
+
+.chart-canvas{
+    background: white;
+    width: 100%;
+    max-width: 100%;
+}
+
+.modal-system{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.3);
+    inset: 0;
+}
+
+.modal-window{
+    background: darkseagreen;
+    border: 2px solid gray;
+    padding: 1rem;
+    border-radius: 1rem;
+    min-width: 250px;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header-close{
+
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.modal-content-row{
+    display: flex;
+    gap: 0.4rem;
+}
+
+.modal-user-line{
+    font-size: 18px;
+    font-weight: bolt;
+}
+
+.modal-content-row-calculator{
+    padding: 0.3rem;
+    background: white;
+    text-align: left;
+    flex: 1;
+    border: 1px solid gray;
+}
+
+.modal-content-row-calculator:hover{
+    background: lightgray;
+}
+
+.button-logout{
+    color: red;
+    background: lightgray;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    border: 2px solid red;
+}
+
+.button-logout:hover{
+    background: darkgray;
+}
+
+/* ------- calculator css end -------- */
+
+
+
